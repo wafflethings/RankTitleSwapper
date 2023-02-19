@@ -1,8 +1,18 @@
 # RankTitleSwapper
-Ultrakill UMM mod which swaps the sprites for the style ranks.
+An ULTRAKILL mod created by **Waffle**, which lets you swap the sprites for rank titles. It's really simple, and doesn't affect perfomance at all. 
+Source code is available on [GitHub](https://github.com/wafflethings/RankTitleSwapper).
 
-Requires UMM 0.5.0, and to be placed in it's own folder (see image below).
-![image](https://user-images.githubusercontent.com/60797216/210158168-a49123f4-0237-4fff-bd59-2eed8f3f32ff.png)
+## Usage
 
-![image](https://user-images.githubusercontent.com/60797216/210158160-15d0f8a3-29b1-4eae-bd88-4607d420bd5b.png)
+`ULTRAKILL\BepInEx\plugins\RankTitleSwapper\Titles` contains the actual PNGs that you need to edit, and `ULTRAKILL\BepInEx\plugins\RankTitleSwapper\PSDs` has PSD files with (almost) exact recreations of the titles, which you can edit.
 
+## Installation
+
+If using [Thunderstore](https://thunderstore.io/c/ultrakill/p/Waff1e/RankTitleSwapper), you can install it using [r2modman](https://thunderstore.io/package/ebkr/r2modman/). 
+Otherwise, download the .zip, and extract it to `ULTRAKILL\BepInEx\plugins`
+
+## Examples
+
+![silly! :3](https://media.discordapp.net/attachments/727956051156271175/1076941705653272576/image.png?width=207&height=335)
+![silly kitty](https://media.discordapp.net/attachments/727956051156271175/1076950442526916608/image.png?width=199&height=335)
+![boring example](https://media.discordapp.net/attachments/727956051156271175/1076950621644652674/image.png?width=222&height=335)
