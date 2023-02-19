@@ -4,7 +4,16 @@ Source code is available on [GitHub](https://github.com/wafflethings/RankTitleSw
 
 ## Usage
 
-`ULTRAKILL\BepInEx\plugins\RankTitleSwapper\Titles` contains the actual PNGs that you need to edit, and `ULTRAKILL\BepInEx\plugins\RankTitleSwapper\PSDs` has PSD files with (almost) exact recreations of the titles, which you can edit.
+### IF YOU ARE USING R2MM:
+Go to `%appdata%\r2modmanPlus-local\ULTRAKILL\profiles\***YOUR PROFILE NAME***\BepInEx\plugins\Waff1e-RankTitleSwapper`.
+
+### IF YOU AREN'T
+Go to `ULTRAKILL\BepInEx\plugins\RankTitleSwapper`.
+\
+\
+\
+Then in that folder:
+`Titles` contains the actual PNGs that you need to edit, and `PSDs` has PSD files with (almost) exact recreations of the titles, which you can edit.
 
 ## Installation
 
