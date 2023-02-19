@@ -12,11 +12,11 @@ using UnityEngine.SceneManagement;
 
 namespace RankTitleSwapper
 {
-    [UKPlugin("Rank Title Swapper", "1.0.0", "Swaps the titles for style ranks.\n\nMod by <b>Waffle</b>.", true, true)]
-    public class Core : UKMod
+    [BepInPlugin("waffle.ultrakill.rts", "RankTitleSwapper", "1.0.0")]
+    public class Core : BaseUnityPlugin
     {
         public static Harmony harmony = new Harmony("waffle.ultrakill.rts");
-        public static string ModPath = Path.Combine(PathUtils.ModDirectory(), "RankTitleSwapper");
+        public static string ModPath = Path.Combine(Paths.PluginPath, "RankTitleSwapper");
         public static Dictionary<string, Sprite> Images = new Dictionary<string, Sprite>();
         public static string[] FileNames =
         {
@@ -30,19 +30,14 @@ namespace RankTitleSwapper
             "RankD"
         };
 
-        public override void OnModLoaded()
+        public void Start()
         {
             foreach(string name in FileNames)
             {
-                Images.Add(name, LoadPNG(Path.Combine(ModPath, name + ".png")));
+                Images.Add(name, LoadPNG(Path.Combine(ModPath, "Titles", name + ".png")));
             }
 
             harmony.PatchAll(typeof(Patches));
-        }
-
-        public override void OnModUnload()
-        {
-            harmony.UnpatchSelf();
         }
 
         public static Sprite LoadPNG(string filePath)
