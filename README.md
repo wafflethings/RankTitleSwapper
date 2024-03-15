@@ -1,27 +1,15 @@
 # RankTitleSwapper
-An ULTRAKILL mod created by **Waffle**, which lets you swap the sprites for rank titles. It's really simple, and doesn't affect perfomance at all. 
-Source code is available on [GitHub](https://github.com/wafflethings/RankTitleSwapper).
+An ULTRAKILL mod created by **Waffle**, which lets you swap the sprites for rank titles.
+Requires UltraTweaker!!
 
 ## Usage
 
-### IF YOU ARE USING R2MM:
-Go to `%appdata%\r2modmanPlus-local\ULTRAKILL\profiles\***YOUR PROFILE NAME***\BepInEx\plugins\Waff1e-RankTitleSwapper`.
-
-### IF YOU AREN'T
-Go to `ULTRAKILL\BepInEx\plugins\RankTitleSwapper`.
-\
-\
-\
-Then in that folder:
-`Titles` contains the actual PNGs that you need to edit, and `PSDs` has PSD files with (almost) exact recreations of the titles, which you can edit.
-
-## Installation
-
-If using [Thunderstore](https://thunderstore.io/c/ultrakill/p/Waff1e/RankTitleSwapper), you can install it using [r2modman](https://thunderstore.io/package/ebkr/r2modman/). 
-Otherwise, download the .zip, and extract it to `ULTRAKILL\BepInEx\plugins`
+Press the OPEN button in the HUD page of UltraTweaker.
+Add your custom titles to the `Titles` folder, then select them in UT.
+`PSDs` has PSD files with (almost) exact recreations of the titles, which you can edit.
 
 ## Examples
 
-![silly! :3](https://media.discordapp.net/attachments/727956051156271175/1076941705653272576/image.png?width=207&height=335)
-![silly kitty](https://media.discordapp.net/attachments/727956051156271175/1076950442526916608/image.png?width=199&height=335)
-![boring example](https://media.discordapp.net/attachments/727956051156271175/1076950621644652674/image.png?width=222&height=335)
+![image](https://github.com/wafflethings/RankTitleSwapper/assets/60797216/9822eb78-29e3-42b9-98bd-33634928ae04)
+![image](https://github.com/wafflethings/RankTitleSwapper/assets/60797216/fd4256fd-9c03-42c3-9058-9ec5caf2cfe6)
+![image](https://github.com/wafflethings/RankTitleSwapper/assets/60797216/aed73669-6275-46fb-8597-95f85be977e5)
