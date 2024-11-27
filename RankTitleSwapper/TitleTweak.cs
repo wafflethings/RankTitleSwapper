@@ -98,6 +98,7 @@ namespace RankTitleSwapper
         public override void OnSceneLoad(Scene scene, LoadSceneMode mode)
         {
             _default = StyleHUD.Instance?.ranks.Select(x => x.sprite).ToList();
+            SetValues();
             SetStyleHud(_edited);
         }
 
